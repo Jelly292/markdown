@@ -1,0 +1,141 @@
+/* -----------标题--------------- */
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "微软雅黑", YaHei Consolas Hybrid, mononoki;
+    font-weight: bold;
+    color: #FFFFFF; 
+    text-shadow: 1px 1px 3px rgba(50, 50, 50, 0.3);  /* 阴影 */
+}
+
+h1 {
+    font-size: 28px/1.5; 
+} 
+
+h2 { 
+    font-size: 24px/1.5; 
+    padding: 10px 0px; 
+    margin: 0px; 
+} 
+
+h3 { 
+    font-size: 22px/1.5; 
+    margin: 0.5em 0px; 
+} 
+
+h4 { 
+    font-size: 1.15em/1.5; 
+    padding: 0px; 
+    margin: 0.5em 0px; 
+} 
+
+h5, h6 { 
+    font-size: 1.15em/1.5; 
+    padding: 0px; 
+    margin: 0.5em 0px; 
+} 
+
+/* -------普通文字段落--------------- */
+
+p {
+    font-family: "微软雅黑", YaHei Consolas Hybrid;
+    color: #FFFFFF;   
+    font-size: 12.5px;
+    line-height: 210%;         /* 行间距 */
+    letter-spacing: 0.16em;    /* 字符间距 */
+}
+
+/* ----------粗斜体--------------- */
+
+strong, em {
+    font-family: "微软雅黑", YaHei Consolas Hybrid;
+    color: #3498DB; 
+    font-size: 12.5px;
+    margin-left: 2.7px;
+    margin-right: 2.7px;
+}
+
+/* -----------列表------------------ */
+
+ol, ul {
+    font-family: "微软雅黑", YaHei Consolas Hybrid;
+    font-size: 12.5px;
+}
+
+
+/* -----------引用------------------ */
+
+blockquote {
+    font-family: YaHei Consolas Hybrid;
+    font-size: 12.5px;
+    letter-spacing: 0.16em;
+    border-left: 6px solid #62c462;  /*左边框加粗, 着色 */
+    border-radius: 5px;              /* 圆滑边框 */
+}
+
+blockquote:before {     /* 冒号间不能有空格 */
+    content: "“";
+    left: 0px;
+    top: 19px;
+    color: #62c462; 
+    font-size: 4.5em;
+    font-family: Arial, "微软雅黑";
+    line-height: 50%;
+    font-weight: 300;
+    position: relative;
+}
+
+blockquote:after {
+    content: "”";
+    right: -96%;
+    bottom: -20px;
+    color: #62c462; 
+    font-size: 4.5em;
+    font-family: Arial, "微软雅黑";
+    line-height: 50%;
+    font-weight: 300;
+    position: relative;
+}
+
+/* -----------链接 (TOC, 脚注上标)------------------ */
+
+a {
+    color: #FFFFFF; 
+    font-size: 12.5px;
+    font-weight: bold;
+    margin-left: 2.7px;
+    margin-right: 2.7px;
+}
+
+a:hover {                /* 悬停链接样式 */
+    color: #FFFFFF;
+    background-color: #ff7e79;
+}
+
+
+/* -----------图片------------------ */
+
+img {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    border-radius: 5px;   
+}
+
+
+/* -----------脚注------------------ */
+
+
+.footnotes small {
+    font-family: YaHei Consolas Hybrid;
+    font-size: 12.5px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+
+
+/* -----------段落码 + 行内码------------------ */
+
+code {
+    font-family: YaHei Consolas Hybrid;
+    font-size: 12.5px;
+    color: #FFFFFF;
+}
